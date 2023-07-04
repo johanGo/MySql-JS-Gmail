@@ -73,7 +73,7 @@ router.post('/send-mail',(req,res)=>{
         }
     }
     sendMail()
-        .then((result)=> res.status(200).send('enviado'))
+        .then((result)=> res.status(200).redirect('/'))
         .catch((error)=>console.log(error.mesage));
 
     // res.redirect('/')
