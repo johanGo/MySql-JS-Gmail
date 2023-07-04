@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+h1{
+    /* text-align: center; */
+    margin: 30px auto;
+    text-align: center;
+}
+form{
+    width:50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 20px 165px;
+}
+label{
+    display: block;
+}
+input{
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 2px solid orangered;
+    border-radius: 7px;
+    padding: 0 15px;
+    font-size: 11.5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+form .number{
+    width: 70%;
+}
+form .description{
+    height: 80px;
+}
+button{
+    width: 27%;
+    height: 30px;
+    background-color: rgb(255, 77, 0);
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 11px;
+    box-shadow: 0 0 7px 2px orangered;
+    cursor: pointer;
+}
